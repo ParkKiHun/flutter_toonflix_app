@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-class Player{
-  String? name;
 void main() {
   runApp(App());
 }
