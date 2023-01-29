@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 
 class Button extends StatelessWidget {
   final String text;
-  final Color bdColor;
+  final Color bgColor;
   final Color textColor;
 
   const Button({
     super.key,
     required this.text,
-    required this.bdColor,
+    required this.bgColor,
     required this.textColor,
   });
 
@@ -17,7 +17,7 @@ class Button extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(45),
-        color: bdColor,
+        color: bgColor,
       ),
       child: Padding(
         padding: const EdgeInsets.symmetric(
